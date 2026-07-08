@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/contactbook-spa-deployment/sw.js', { scope: '/contactbook-spa-deployment/' })})}
